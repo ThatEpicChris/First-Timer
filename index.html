@@ -1,81 +1,167 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
+<head>
 
-		<!-- META -->
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>First Timer MD</title>
+	<!-- META -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>First Timer MD</title>
 
-		<!-- STYLES -->
-		<link rel="stylesheet" type="text/css" href="package/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="package/css/custom.css" />
-		<link rel="stylesheet" type="text/css" href="package/css/visual.css" />
+	<!-- STYLES -->
+	<link rel="stylesheet" type="text/css" href="package/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="package/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="package/css/visual.css" />
 
-		<!-- MODERNIZR -->
-		<script src="package/js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<!-- FIRST TIMER MODALS -->
-		<!-- Slide 1 -->
-		<div class="md-modal md-scale" id="md-scale">
-			<div class="md-content">
-				<ul class="nav nav-tabs">
-					<div class="connect"></div>
-	<li class="tabview active"><a href="#tab1" data-toggle="tab"><span class="tabid">1</span>Slide 1</a></li>
-	<li class="tabview"><a href="#tab2" data-toggle="tab"><span class="tabid">2</span>Slide 2</a></li>
-	<li class="tabview"><a href="#tab3" data-toggle="tab"><span class="tabid">3</span>Slide 3</a></li>
-</ul>
-<div class="tab-content">
+	<!-- MODERNIZR -->
+	<script src="package/js/modernizr.custom.js"></script>
+</head>
 
+<body>
+	<!-- FIRST TIMER -->
+	<!--
+		INTRODUCTION
+				Welcome to First Timer! I assume you want to
+				get up and running real quick, so below you
+				will find the installation instructions and
+				important notes so you can get First Timer
+				up and running in a jiffy.
+
+		INSTRUCTIONS
+		1)	Copy all of the files in the folder PACKAGE into
+				your root folder for your website. This is
+				important so all you have to do is direct the
+				html (and JS if your code goes that route) to
+				the package folder, and you can simply leave
+				the rest of the Links & Src links as is.
+		2)	Copy the CSS refrences, and Javscript Refrences
+				into your index.html file (assuming this is the
+				on the default page on your website - but if it
+				isn't, no change is needed).
+		3)	Copy the First-Timer Popup Code. This is outlined
+				with very wide comment marks below - shouldn't be
+				that hard to miss.
+		4) 	Copy the First-Timer Trigger Code. This again is
+				outlined with very wide comment marks, below the
+				Popup Code.
+		5)	Customize! You can now customize First-Timer to
+				your needs, and implement accordingly.
+
+		IMPORTANT NOTES
+			TABS
+			* If you have more than 5 Tabs with small title text,
+				I would highly reccomend using just the TABID's
+				instead of a TABID + Title.
+
+			PAGINATION
+			* When you add the pagination triggers at the bottom,
+				you need to make sure what css class is attached
+				to each - to be sure that they trigger the next
+				page. Below is a simple grid to help organize which
+				classes are needed for which types of pagination
+				buttons.
+
+					TYPE				CLASS													NOTES
+					Next				md-btn, btnNext								none
+					Previous		md-btn, btnPrevious						none
+					Last				md-close, md-btn, btnFirst		If you do not add the md-close class,
+																										the popup modal will not dismiss! It is
+																										imperative that you add the btnFirst class
+																										as this resets the modal, so if the user
+																										wants to reopen it at a later time through
+																										your app/website's settings, they can.
+
+			OVERLAY
+			*	The small div that contains the MD-OVERLAY class
+				controls the dimmed background. You can edit what
+				color, or what opacity it is in the directory:
+					package/css/custom.css
+
+			IMAGES
+			*	If you want to change the background of the pages,
+				you can change the images located in the directory:
+					package/img/
+
+				You can replace the images in this folder, reduce, or
+				add more - but I highly reccomend on keeping them in
+				this folder for organization. The linkage to the images
+				are in a ' style="background-image" 'line in the page's
+				top-most div.
+				If you want just a color background, you can edit the
+				class TAB-PANE in the custom.css file located in the
+				directory:
+					package/css/custom.css
+					
+
+	-->
+
+
+	<!-- ##################### FIRST TIMER POPUP CODE ##########################-->
 	<!-- Slide 1 -->
-	<div class="tab-pane fade in active" id="tab1" style="background-image: url('package/img/slide1.png')">
+	<div class="md-modal md-scale" id="md-scale">
+		<div class="md-content">
+			<ul class="nav nav-tabs">
+				<div class="connect"></div>
+				<li class="tabview active"><a href="#tab1" data-toggle="tab"><span class="tabid">1</span>Slide 1</a></li>
+				<li class="tabview"><a href="#tab2" data-toggle="tab"><span class="tabid">2</span>Slide 2</a></li>
+				<li class="tabview"><a href="#tab3" data-toggle="tab"><span class="tabid">3</span>Slide 3</a></li>
+			</ul>
+			<div class="tab-content">
 
-		<!-- Footer -->
-		<div class="md-footer">
-			<div class="md-btn btnNext">Next</div>
-		</div>
-	</div>
+				<!-- Slide 1 -->
+				<div class="tab-pane fade in active" id="tab1" style="background-image: url('package/img/slide1.png')">
 
-	<!-- Slide 2 -->
-	<div class="tab-pane fade" id="tab2" style="background-image: url('package/img/slide2.png')">
+					<!-- Footer -->
+					<div class="md-footer">
+						<div class="md-btn btnNext">Next</div>
+					</div>
+				</div>
 
-		<!-- Footer -->
-		<div class="md-footer">
-			<div class="md-btn btnNext">Next</div>
-			<div class="md-btn btnPrevious">Back</div>
-		</div>
-	</div>
+				<!-- Slide 2 -->
+				<div class="tab-pane fade" id="tab2" style="background-image: url('package/img/slide2.png')">
 
-	<!-- Slide 3 -->
-	<div class="tab-pane fade" id="tab3" style="background-image: url('package/img/slide3.png')">
+					<!-- Footer -->
+					<div class="md-footer">
+						<div class="md-btn btnNext">Next</div>
+						<div class="md-btn btnPrevious">Back</div>
+					</div>
+				</div>
 
-		<!-- Footer -->
-		<div class="md-footer">
-			<div class="md-close md-btn btnFirst">Cool!</div>
-			<div class="md-btn btnPrevious">Back</div>
-		</div>
-	</div>
-</div>
+				<!-- Slide 3 -->
+				<div class="tab-pane fade" id="tab3" style="background-image: url('package/img/slide3.png')">
+
+					<!-- Footer -->
+					<div class="md-footer">
+						<div class="md-close md-btn btnFirst">Cool!</div>
+						<div class="md-btn btnPrevious">Back</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- Backdrop Overlay -->
-		<div class="md-overlay"></div>
-		<!-- TRIGGER -->
-		<button id="firsttime" class="md-trigger" data-modal="md-scale">First Timer Trigger</button>
+	</div>
+	<!-- Backdrop Overlay -->
+	<div class="md-overlay"></div>
 
-		<!-- SCRIPTS -->
-		<!-- CLASSIE.js by @desandro: https://github.com/desandro/classie -->
-		<script src="package/js/jquery.js"></script>
-		<script src="package/js/bootstrap.js"></script>
-		<script src="package/js/classie.js"></script>
-		<script src="package/js/cookie.js"></script>
-		<script src="package/js/modalEffects.js"></script>
-		<script>
-			// Important for IE! DON'T TOUCH!
-			var polyfilter_scriptpath = 'package/js/';
-		</script>
-		<script src="package/js/cssParser.js"></script>
-	</body>
+		<!-- ()()()()()()()()()() END OF FIRST TIMER POPUP CODE ()()()()()()()()()()() -->
+
+
+
+
+
+		<!-- ##################### FIRST TIMER TRIGGER CODE ##########################-->
+
+	<button id="firsttime" class="md-trigger" data-modal="md-scale">First Timer Trigger</button>
+
+		<!-- ()()()()()()()()() END OF FIRST TIMER TRIGGER CODE ()()()()()()()()(()() -->
+
+	<!-- SCRIPTS -->
+	<!-- CLASSIE.js by @desandro: https://github.com/desandro/classie -->
+	<script src="package/js/jquery.js"></script>
+	<script src="package/js/bootstrap.js"></script>
+	<script src="package/js/classie.js"></script>
+	<script src="package/js/cookie.js"></script>
+	<script src="package/js/modalEffects.js"></script>
+	<script src="package/js/cssParser.js"></script>
+</body>
+
 </html>
