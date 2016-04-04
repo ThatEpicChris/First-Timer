@@ -1,5 +1,5 @@
 # First-Timer
-Version 1.0.6
+Version 1.0.7
 
 ##INTRODUCTION
 Welcome to First Timer! I assume you want to
