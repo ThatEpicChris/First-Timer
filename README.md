@@ -78,7 +78,7 @@ up and running in a jiffy.
 ###COOKIES
   First timer DOES USE COOKIES. If your website serves the UK
     please read this website on regards to the usage of Cookies.
-      'https://goo.gl/lpqF4f'
+      https://goo.gl/lpqF4f
 ###Z-INDEX
   All of First-Timer is built on the level of '2000' in regards to
     the Z-Index. If you want to put content above First Timer, put it
