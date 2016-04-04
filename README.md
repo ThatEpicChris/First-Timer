@@ -1,10 +1,10 @@
 # First-Timer
 ##INTRODUCTION
-      Welcome to First Timer! I assume you want to
-      get up and running real quick, so below you
-      will find the installation instructions and
-      important notes so you can get First Timer
-      up and running in a jiffy.
+Welcome to First Timer! I assume you want to
+get up and running real quick, so below you
+will find the installation instructions and
+important notes so you can get First Timer
+up and running in a jiffy.
 
 ##INSTRUCTIONS
   1)	Copy all of the files in the folder PACKAGE into
