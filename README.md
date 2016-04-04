@@ -1,10 +1,12 @@
 # First-Timer
+
 ##INTRODUCTION
 Welcome to First Timer! I assume you want to
 get up and running real quick, so below you
 will find the installation instructions and
 important notes so you can get First Timer
 up and running in a jiffy.
+
 ##INSTRUCTIONS
   1.  Copy all of the files in the folder PACKAGE into
       your root folder for your website. This is
@@ -24,12 +26,13 @@ up and running in a jiffy.
       Popup Code.
   5.	Customize! You can now customize First-Timer to
       your needs, and implement accordingly.
+
 ##IMPORTANT NOTES
-  _TABS_
+###TABS
   * If you have more than 5 Tabs with small title text,
-    I would highly reccomend using just the TABID's
-    instead of a TABID + Title.
-  _PAGINATION_
+    I would highly reccomend using just the '.tabid''s
+    instead of a '.tabid' + Title.
+###PAGINATION
   * When you add the pagination triggers at the bottom,
     you need to make sure what css class is attached
   to each - to be sure that they trigger the next
@@ -47,12 +50,12 @@ up and running in a jiffy.
                                                 wants to reopen it at a later time through
                                                 your app/website's settings, they can.
   '''
-   _OVERLAY_
+###OVERLAY
   *	The small div that contains the '.md-overlay' class
     controls the dimmed background. You can edit what
     color, or what opacity it is in the directory:
       'package/css/custom.css'
-  _IMAGES_
+###IMAGES
   *	If you want to change the background of the pages,
     you can change the images located in the directory:
       'package/img/'
@@ -65,18 +68,18 @@ up and running in a jiffy.
     class '.tab-pane' in the custom.css file located in the
     directory:
       'package/css/custom.css'
-  _REMOTE TRIGGERING_
+###REMOTE TRIGGERING
   *	If you want to remotely trigger First Timer, you can run
     the following line in the JS Console for the website:
       'Cookies.set('firsttimeview', '0')'
     You can also reset your browser's cookies to re-trigger it,
     or if you have a cookies editor, just set the cookie
     'firsttimeview' to 0.
-  _COOKIES_
+###COOKIES
   *	First timer DOES USE COOKIES. If your website serves the UK
     please read this website on regards to the usage of Cookies.
       'https://goo.gl/lpqF4f'
-  _Z-INDEX_
+###Z-INDEX
   *	All of First-Timer is built on the level of '2000' in regards to
     the Z-Index. If you want to put content above First Timer, put it
     above '2010' - as some content for the Stepper utilize the 10 levels
