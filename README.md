@@ -1,12 +1,12 @@
 # First-Timer
-  ** * *INTRODUCTION* * **
+##INTRODUCTION
       Welcome to First Timer! I assume you want to
       get up and running real quick, so below you
       will find the installation instructions and
       important notes so you can get First Timer
       up and running in a jiffy.
 
-  ** * *INSTRUCTIONS* * **
+##INSTRUCTIONS
   1)	Copy all of the files in the folder PACKAGE into
       your root folder for your website. This is
       important so all you have to do is direct the
@@ -26,13 +26,13 @@
   5)	Customize! You can now customize First-Timer to
       your needs, and implement accordingly.
 
-  ** * *IMPORTANT NOTES* * **
-    **TABS**
+##IMPORTANT NOTES
+    _TABS_
     * If you have more than 5 Tabs with small title text,
       I would highly reccomend using just the TABID's
       instead of a TABID + Title.
 
-    **PAGINATION**
+    _PAGINATION_
     * When you add the pagination triggers at the bottom,
       you need to make sure what css class is attached
       to each - to be sure that they trigger the next
@@ -41,22 +41,22 @@
       buttons.
 
         TYPE				CLASS													NOTES
-        Next				'''md-btn, btnNext'''								none
-        Previous		'''md-btn, btnPrevious'''						none
-        Last				'''md-close, md-btn, btnFirst'''		If you do not add the md-close class,
+        Next				md-btn, btnNext								none
+        Previous		md-btn, btnPrevious						none
+        Last				md-close, md-btn, btnFirst		If you do not add the md-close class,
                                                   the popup modal will not dismiss! It is
                                                   imperative that you add the btnFirst class
                                                   as this resets the modal, so if the user
                                                   wants to reopen it at a later time through
                                                   your app/website's settings, they can.
 
-    **OVERLAY**
+    _OVERLAY_
     *	The small div that contains the MD-OVERLAY class
       controls the dimmed background. You can edit what
       color, or what opacity it is in the directory:
         package/css/custom.css
 
-    **IMAGES**
+    _IMAGES_
     *	If you want to change the background of the pages,
       you can change the images located in the directory:
         package/img/
@@ -71,7 +71,7 @@
       directory:
         package/css/custom.css
 
-    **REMOTE TRIGGERING**
+    _REMOTE TRIGGERING_
     *	If you want to remotely trigger First Timer, you can run
       the following line in the JS Console for the website:
         '''Cookies.set('firsttimeview', '0')'''
@@ -80,12 +80,12 @@
       or if you have a cookies editor, just set the cookie
       "firsttimeview" to 0.
 
-    **COOKIES**
+    _COOKIES_
     *	First timer DOES USE COOKIES. If your website serves the UK
       please read this website on regards to the usage of Cookies.
         https://goo.gl/lpqF4f
 
-    **Z-INDEX**
+    Z-INDEX_
     *	All of First-Timer is built on the level of 2000 in regards to
       the Z-Index. If you want to put content above First Timer, put it
       above 2010 - as some content for the Stepper utilize the 10 levels
