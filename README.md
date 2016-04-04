@@ -5,7 +5,6 @@ get up and running real quick, so below you
 will find the installation instructions and
 important notes so you can get First Timer
 up and running in a jiffy.
-
 ##INSTRUCTIONS
   1.  Copy all of the files in the folder PACKAGE into
       your root folder for your website. This is
@@ -25,7 +24,6 @@ up and running in a jiffy.
       Popup Code.
   5.	Customize! You can now customize First-Timer to
       your needs, and implement accordingly.
-
 ##IMPORTANT NOTES
     _TABS_
     * If you have more than 5 Tabs with small title text,
