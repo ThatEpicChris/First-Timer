@@ -1,3 +1,4 @@
+/* Font Definitions */
 @font-face {
     font-family: "Roboto";
     src: url("../font/Roboto-Thin.ttf");
@@ -65,6 +66,7 @@
 		font-style: italic;
 }
 
+
 ul.nav.nav-tabs {
   	display: table;
   	width: 100%;
@@ -74,40 +76,24 @@ ul.nav.nav-tabs {
     top: 0;
 		background-color: white;
     z-index: 2001;
-	}
+}
 ul.nav.nav-tabs > li {
     float: none;
 		line-height: 72px;
     display: table-cell;
 		width:100%;
-		text-align: center;
-		background-color: white;
-	}
+}
 ul.nav.nav-tabs > li > a {
-    text-align: center !important;
-		color: black !important;
 		display: inline-block;
-		border-width: 0 !important;
-		border-radius: 2px !important;
 		transition: all 0.15s;
 		-webkit-transition: all 0.15s;
-		background-color: #fff;
     z-index: 2003;
-	}
-.active {
-	font-weight: bold;
 }
 .tab-pane {
 	padding-top: 72px !important;
-	min-height: 400px;
-	background-position: center center;
-	background-size: cover;
 }
 .connect {
-	height: 1px;
-	background-color: rgba(0,0,0,0.2);
 	position: absolute;
-	margin-top: 36px;
 	width: 500px;
 	margin-left: calc(50% - 250px);
   z-index: 2002;
@@ -126,7 +112,6 @@ ul.nav.nav-tabs > li > a {
 }
 
 .container {
-	background: #ffffff;
 	min-height: 100%;
 }
 
@@ -134,11 +119,7 @@ ul.nav.nav-tabs > li > a {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	width: 640px;
-	border-radius: 2px;
-	height: auto;
 	z-index: 2000;
-	font-family: 'Roboto', sans-serif;
 	visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -148,6 +129,8 @@ ul.nav.nav-tabs > li > a {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
+
+/* DO NOT TOUCH BELOW */
 
 .md-show {
 	visibility: visible;

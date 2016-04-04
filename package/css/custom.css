@@ -1,3 +1,13 @@
+/* GENERAL CUSTOMIZATION */
+.container {
+	background-color: #ffffff;
+}
+.md-modal {
+	width: 640px;
+	height: auto;
+	border-radius: 2px;
+	font-family: 'Roboto', sans-serif;
+}
 .md-content {
 	color: rgba(0,0,0,0.9);
 	position: relative;
@@ -45,6 +55,7 @@
 	background-color: rgba(0,0,0,0.3);
 }
 
+/* STEPPER CUSTOMIZATION */
 .tabid {
 	background-color: #2196F3;
 	border-radius: 100px;
@@ -53,4 +64,59 @@
 	padding-right: 10px;
 	margin-right: 8px;
 	color: white;
+}
+.connect {
+	height: 1px;
+	background-color: rgba(0,0,0,0.2);
+	margin-top: 36px;
+	/*
+			If you change the height, subtract
+			the new height from 37 to keep it
+			vertically centered in the stepper
+	*/
+}
+.tab-pane {
+	min-height: 400px;
+	background-position: center center;
+	background-size: cover;
+}
+.active {
+	font-weight: bold;
+}
+ul.nav.nav-tabs > li > a {
+	/*
+			The following 3 lines marked with
+			!important reset the CSS from
+			Bootstrap's UI.
+	*/
+	text-align: center !important;
+	color: #000000 !important;
+	border-width: 0 !important;
+	background-color: #ffffff;
+}
+ul.nav.nav-tabs > li {
+	text-align: center;
+	background-color: #ffffff;
+}
+ul.nav.nav-tabs {
+	/*
+			If you want to change the height
+			of the Stepper, change it below,
+			as well as in the core.css file
+			under .TAB-PANE (padding-top), and
+			under UL.NAV.NAV-TABS > LI (line-height).
+			All three of these should be the
+			same number otherwise you will run
+			into issues.
+	*/
+	height: 72px;
+	/*
+			If you are looking to change the
+			background of the entire stepper,
+			change the background below, then
+			set UL.NAV.NAV-TABS > li > a and
+			UL.NAV.NAV-TABS > LI (from above)
+			to rgba(0,0,0,0);
+	*/
+	background-color: #ffffff;
 }
