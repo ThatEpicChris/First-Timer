@@ -106,53 +106,64 @@
 				please read this website on regards to the usage of Cookies.
 					https://goo.gl/lpqF4f
 
+			Z-INDEX
+			*	All of First-Timer is built on the level of 2000 in regards to
+				the Z-Index. If you want to put content above First Timer, put it
+				above 2010 - as some content for the Stepper utlizes the 10 levels
+				in between.
 	-->
 
 
 	<!-- ##################### FIRST TIMER POPUP CODE ##########################-->
-	<!-- Slide 1 -->
+
 	<div class="md-modal md-scale" id="md-scale">
-		<div class="md-content">
-			<ul class="nav nav-tabs">
-				<div class="connect"></div>
-				<li class="tabview active"><a href="#tab1" data-toggle="tab"><span class="tabid">1</span>Slide 1</a></li>
-				<li class="tabview"><a href="#tab2" data-toggle="tab"><span class="tabid">2</span>Slide 2</a></li>
-				<li class="tabview"><a href="#tab3" data-toggle="tab"><span class="tabid">3</span>Slide 3</a></li>
+		<div class="md-content"><!-- Parent DIV for the Popup Content -->
+			<ul class="nav nav-tabs"><!-- Parent DIV for the Stepper -->
+				<div class="connect"></div> <!-- Line that divides the Stepper Titles -->
+				<!-- Individual Steppers -->
+				<li class="tabview active"><a href="#tab1" data-toggle="tab"><span class="tabid">1</span>Welcome</a></li>
+				<li class="tabview"><a href="#tab2" data-toggle="tab"><span class="tabid">2</span>Cool Feature</a></li>
+				<li class="tabview"><a href="#tab3" data-toggle="tab"><span class="tabid">3</span>Get Started</a></li>
 			</ul>
-			<div class="tab-content">
 
-				<!-- Slide 1 -->
-				<div class="tab-pane fade in active" id="tab1" style="background-image: url('package/img/slide1.png')">
+			<div class="tab-content"><!-- Parent DIV for the Page Content -->
 
-					<!-- Footer -->
-					<div class="md-footer">
+				<!-- Page Content (page 1) -->
+				<div class="tab-pane fade in active" id="tab1" style="background-image: url('package/img/slide1.png')"><!-- Parent DIV for individual page -->
+
+
+					<div class="md-footer"><!-- Parent DIV for individual page's footer -->
+						<!-- NOTE Organize the Buttons in the footer with the right most being on the top -->
 						<div class="md-btn btnNext">Next</div>
 					</div>
 				</div>
 
-				<!-- Slide 2 -->
-				<div class="tab-pane fade" id="tab2" style="background-image: url('package/img/slide2.png')">
+				<!-- Page Content (page 2) -->
+				<div class="tab-pane fade" id="tab2" style="background-image: url('package/img/slide2.png')"><!-- Parent DIV for individual page -->
 
-					<!-- Footer -->
-					<div class="md-footer">
+
+					<div class="md-footer"><!-- Parent DIV for individual page's footer -->
+						<!-- NOTE Organize the Buttons in the footer with the right most being on the top -->
 						<div class="md-btn btnNext">Next</div>
 						<div class="md-btn btnPrevious">Back</div>
 					</div>
 				</div>
 
-				<!-- Slide 3 -->
-				<div class="tab-pane fade" id="tab3" style="background-image: url('package/img/slide3.png')">
+				<!-- Page Content (page 3) -->
+				<div class="tab-pane fade" id="tab3" style="background-image: url('package/img/slide3.png')"><!-- Parent DIV for individual page -->
 
-					<!-- Footer -->
-					<div class="md-footer">
+
+					<div class="md-footer"><!-- Parent DIV for individual page's footer -->
+						<!-- NOTE Organize the Buttons in the footer with the right most being on the top -->
 						<div class="md-close md-btn btnFirst">Cool!</div>
 						<div class="md-btn btnPrevious">Back</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
-	<!-- Backdrop Overlay -->
+	<!-- BACKDROP OVERLAY -->
 	<div class="md-overlay"></div>
 
 		<!-- ()()()()()()()()()() END OF FIRST TIMER POPUP CODE ()()()()()()()()()()() -->
