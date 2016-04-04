@@ -43,7 +43,12 @@ up and running in a jiffy.
     TYPE        CLASS                         NOTES
     Next	    md-btn, btnNext			      none
     Previous	md-btn, btnPrevious		      none
-    Last	    md-close, md-btn, btnFirst	  If you do not add the md-close class, the popup modal will not dismiss! It is imperative that you add the btnFirst class as this resets the modal, so if the user wants to reopen it at a later time through your app/website's settings, they can.
+    Last	    md-close, md-btn, btnFirst	  If you do not add the md-close class, the
+                                              popup modal will not dismiss! It is imperative
+                                              that you add the btnFirst class as this resets
+                                              the modal, so if the user wants to reopen it at
+                                              a later time through your app/website's settings,
+                                              they can.
     
 ###OVERLAY
   The small div that contains the '.md-overlay' class
