@@ -1,4 +1,6 @@
 # First-Timer
+![Demo](demo.gif)
+
 Version 1.0.7
 
 ##INTRODUCTION
