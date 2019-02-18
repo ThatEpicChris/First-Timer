@@ -55,16 +55,29 @@
 	background-color: rgba(0,0,0,0.3);
 }
 
-.md-trigger {
-	background-color: rgba(0,0,0,0.8);
-	color: white;
+.md-trigger:hover {
+	background-color: red;
+	color: yellow;
+	transition: 2s;
+	transform: rotate(90deg);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px;
+
+}
+.md-trigger
+{
+	background-image: blue;
+	height: 100px;
+	width: 100px;
 }
 
 /* STEPPER CUSTOMIZATION */
 .tabid {
 	background-color: #2196F3;
 	border-radius: 100px;
-	padding: 6px;
+	padding: 100px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-right: 8px;
